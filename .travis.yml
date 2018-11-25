@@ -8,5 +8,5 @@ before_script: php composer.phar install
 deploy:
   provider: gae
   keyfile: credentials-dreamteam.json
-  project: fhi-wawd-dreamteam
+  project: php-webapp-ms
   config: app.yaml
