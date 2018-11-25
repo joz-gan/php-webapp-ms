@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Spojenie s MySQL</title>
+</head>
+<body>
+	<?php
+    require_once("class/spojMySQL.php");
+    $spojenie = new spojMySQL('localhost','root','','dreamteam-db');
+    $spojenie->pripojMySQL(); 
+    ?>
+</body>
+</html>

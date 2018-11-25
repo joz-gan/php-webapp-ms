@@ -1,0 +1,9 @@
+**/vendor
+
+**/settings.yml
+
+build/*
+
+
+
+credentials-dreamteam.json
